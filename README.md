@@ -14,33 +14,6 @@ Before you begin, make sure you have the required dependencies installed in your
 pip install -r requirements.txt
 ```
 
-## Different Gesture Modes
-
-### 1.Mouse Movement
-
-Cursor movement mode can be triggered using one finger or more than one fingers, given they maintain a distance between them.
-
-![Alt text](https://github.com/jayant1211/GestureControlledMouse/blob/master/results/movement.gif)
-
-### 2.Left Click
-
-Left click can be implemented by touching middle and index finger.
-
-![Alt text](https://github.com/jayant1211/GestureControlledMouse/blob/master/results/left.gif)
-
-### 3.Right Click
-
-Right click can be implemented by touching thumb and middle finger.
-
-![Alt text](https://github.com/jayant1211/GestureControlledMouse/blob/master/results/right.gif)
-
-### 4.Hold and Drag
-
-Can be triggered using Three fingers, Index, Middle and Ring.  
-
-![Alt text](https://github.com/jayant1211/GestureControlledMouse/blob/master/results/drag.gif)
-
-
 ### Rough Sketch:
 
 The code appears to be a Python program for controlling the computer mouse using hand gestures captured through a webcam. It relies on computer vision techniques to detect and interpret these hand gestures.
