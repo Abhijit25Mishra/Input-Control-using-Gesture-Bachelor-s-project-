@@ -2,6 +2,8 @@
 
 Control your computer mouse remotely using hand gestures.
 
+This is for controlling the computer mouse using hand gestures captured through a webcam. It relies on computer vision techniques to detect and interpret these hand gestures.
+
 ## Introduction
 
 The objective of this project is to enable remote mouse control through hand gestures. It utilizes hand detection technology provided by [Mediapipe](https://google.github.io/mediapipe/) and mouse control capabilities offered by [Autopy](https://pypi.org/project/autopy/).
@@ -14,10 +16,6 @@ Before you begin, make sure you have the required dependencies installed in your
 pip install -r requirements.txt
 ```
 
-### Rough Sketch:
-
-The code appears to be a Python program for controlling the computer mouse using hand gestures captured through a webcam. It relies on computer vision techniques to detect and interpret these hand gestures.
-
 ### Formal Explanation:
 
 #### Import Necessary Libraries:
@@ -26,7 +24,7 @@ The code begins by importing required libraries, including HandDetectionModule f
 
 #### Set Up the Camera:
 
-It initializes the webcam capture using OpenCV (cv2.VideoCapture), setting the camera resolution to 1536x864 pixels.
+It initializes the webcam capture using OpenCV (cv2.VideoCapture), setting the camera resolution.
 
 #### Initialize Variables:
 
@@ -34,7 +32,12 @@ Variables like holdFlag, reducedFrame, smoothening, plocX, and plocY are initial
 
 #### Define Functions:
 
-Several functions are defined to handle different gesture cases, such as mouse movement (caseMovement), left-click (caseLeft), right-click (caseRight), left button toggle (leftToggleOn and leftToggleOff), and a default case (caseDefault).
+Several functions are defined to handle different gesture cases, such as 
+1. mouse movement (caseMovement), 
+2. left-click (caseLeft), 
+3. right-click (caseRight), 
+4. left button toggle (leftToggleOn and leftToggleOff), 
+5. and a default case (caseDefault).
 
 #### Main Loop:
 
